@@ -1,23 +1,24 @@
-# cornell-note-md
+# CORNELL-NOTE-MD
 
-Sure! Here's a simple example of a responsive two-column layout using Markdown:
+<div style="display: grid; grid-template-columns: 1fr 4fr; gap: 20px;">
+  <div>
 
-<div style="display: flex; flex-wrap: wrap;">
+## Keywords/Questions
 
-<div style="flex: 1; min-width: 200px; padding: 10px;">
-### Column 1
-- Item 1
-- Item 2
-- Item 3
+- lorem
+- ipsum
+- dolor
+- sit
+- amet
+
+  </div>
+  <div>
+
+## Notes
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo enim nec ipsum porta mattis. Ut congue luctus tristique. Morbi at mauris turpis. Vestibulum nisl massa, egestas eu nibh a, molestie elementum massa. Vestibulum turpis arcu, semper quis est et, congue rhoncus neque. Sed lobortis dapibus mauris vitae dictum. Duis at pharetra justo, ut mattis nisi. In purus urna, porttitor eget vestibulum pretium, eleifend quis neque. Phasellus vitae magna pulvinar ligula dignissim ultrices sed a justo. Donec in eros arcu. Quisque interdum eros odio, non elementum neque consectetur at. Donec a turpis tristique nulla vehicula faucibus non non orci. Praesent fringilla tempus nisl eu posuere. Duis velit odio, vestibulum vitae dictum in, volutpat sit amet dui. Pellentesque convallis dignissim purus. Donec varius porta suscipit.
+
+Ut eu nulla id purus rhoncus lobortis. Praesent eget varius lectus. Sed nec elit felis. Nullam elementum, lacus ut rhoncus semper, ex magna gravida augue, ac scelerisque augue purus at ante. Integer sit amet eros vehicula, vehicula diam at, varius urna. Suspendisse auctor molestie turpis eget ullamcorper. Suspendisse laoreet scelerisque leo, at molestie nunc. Duis id cursus ipsum. Nulla et tellus risus. Fusce lobortis ut metus id efficitur. Duis ultricies risus eu feugiat convallis. Praesent quis egestas erat. Phasellus leo est, dignissim nec nulla maximus, consequat feugiat massa. Mauris rutrum interdum pellentesque. Aenean gravida congue lectus.
+
+  </div>
 </div>
-
-<div style="flex: 1; min-width: 200px; padding: 10px;">
-### Column 2
-- Item A
-- Item B
-- Item C
-</div>
-
-</div>
-
-This code uses inline CSS to create a flexible, responsive two-column layout. Each column will adjust its width based on the available space, ensuring a neat and organized appearance on various screen sizes. Feel free to customize the content and styling to suit your needs!
